@@ -35,8 +35,8 @@ const myQuestions = [
       c: "10kg"
     },
     correctAnswer: "a",
-    correctAnswerText: "That is correct.<p>Anything above 2kg should be posted usind DPD</p>",
-    falseAnswerText: "That´s wrong!<p>Anything above 2kg should be posted usind DPD.</p>"
+    correctAnswerText: "That is correct.<p>Anything above 2kg should be posted using DPD</p>",
+    falseAnswerText: "That´s wrong!<p>Anything above 2kg should be posted using DPD.</p>"
   },
   {
     title: "Question 4 - Assembly point",
