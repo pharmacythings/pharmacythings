@@ -39,7 +39,7 @@ const myQuestions = [
     falseAnswerText: "That´s wrong!<p>Anything above 2kg should be posted using DPD.</p>"
   },
   {
-    title: "Question 4 - Assembly point",
+    title: "Question 4 - Rubbish",
     question: "You have been packing medicines and now have a stack of patient invoices. How do you dispose of them?<p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide4.gif'>",
     answers: {
