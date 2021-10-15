@@ -48,8 +48,8 @@ const myQuestions = [
       c: "Set fire to them"
     },
     correctAnswer: "a",
-    correctAnswerText: "That is correct.<p>Our assembly point is opposite the main entrance next to the trees.</p>",
-    falseAnswerText: "That is not correct.<p>X2 is no assembly point and X3 is the assembly point for Interim III.</p>"
+    correctAnswerText: "That is correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>",
+    falseAnswerText: "That is not correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>"
   },
   {
     title: "Question 5 - Fire alarm",
