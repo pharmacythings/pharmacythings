@@ -9,8 +9,8 @@ const myQuestions = [
       c: "Occupational Therapy Classes."
     },
     correctAnswer: "b",
-    correctAnswerText: "That is correct.<p>OTC stands for “over-the-counter,” or nonprescription, medicine. These are medicines available without a healthcare provider’s prescription.</p>",
-    falseAnswerText: "That's not correct.<p>OTC stands for “over-the-counter,” or nonprescription, medicine. These are medicines available without a healthcare provider’s prescription.</p>"
+    correctAnswerText: "That is correct.<p>OTC stands for “over-the-counter,” (non-prescription) medicine. These are medicines available without a healthcare provider’s prescription.</p>",
+    falseAnswerText: "That's not correct.<p>OTC stands for “over-the-counter,” (non-prescription) medicine. These are medicines available without a healthcare provider’s prescription.</p>"
   },
   {
     title: "Question 2 - Saxenda",
