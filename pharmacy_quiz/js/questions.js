@@ -2,7 +2,7 @@ const myQuestions = [
   {
     title: "Question 1 - OTC",
     question: "What does OTC stand for?...<p>Select your answer then Confirm.</p>",
-    background: "<img src='./img/bg_slide1.jpg'>",
+    background: "<img src='./img/bg_slide2.jpg'>",
     answers: {
       a: "Off the cuff",
       b: "Over the counter",
@@ -53,15 +53,15 @@ const myQuestions = [
   },
   {
     title: "Question 5 - Fire alarm",
-    question: "Almost there...<p>In case of fire. Alarm & warn people in the building! Fire alarms are located always different per department! Do you know the location of the fire alarms in BIOCON?</p><p>Select your answer then Confirm.</p>",
+    question: "In case of fire. Alarm & warn people in the building! Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm in the dispensary?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide5.jpg'>",
     answers: {
       a: "Main entrance door",
-      b: "Next to Resilience room",
-      c: "Opposite of woman restroom"
+      b: "The top Fire Exit",
+      c: "Opposite the toilets"
     },
     correctAnswer: "c",
-    correctAnswerText: "That is correct.<p>The fire alarm is located opposite of woman restroom. Call fire service - 112! Focus on main questions: WHO is calling? WHAT happened? WHERE did it happen? HOW many are injured? WAIT for questions!</p>",
-    falseAnswerText: "That is not correct.<p>Check the floor before you try again.</p>"
+    correctAnswerText: "That is correct.<p>The nearest fire alarm is located beside the top Fire Exit.</p>",
+    falseAnswerText: "That is not correct.<p>Perhaps now would be a good time to find out?!.</p>"
   }
 ];
