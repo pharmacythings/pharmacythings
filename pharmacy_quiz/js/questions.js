@@ -53,7 +53,7 @@ const myQuestions = [
   },
   {
     title: "Question 5 - Fire alarm",
-    question: "In case of fire. Alarm & warn people in the building! Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm in the dispensary?</p><p>Select your answer then Confirm.</p>",
+    question: "In case of fire. Raise the Alarm & warn people!<p> Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm in the dispensary?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide5.jpg'>",
     answers: {
       a: "Main entrance door",
