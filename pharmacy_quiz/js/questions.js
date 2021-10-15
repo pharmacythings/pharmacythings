@@ -40,12 +40,12 @@ const myQuestions = [
   },
   {
     title: "Question 4 - Assembly point",
-    question: "Do you know our assembly point of Interim II?<p>Select your answer then Confirm.</p>",
+    question: "You have been packing medicines and now have a stack of patient invoices. How do you dispose of them?<p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide4.gif'>",
     answers: {
-      a: "X1",
-      b: "X2",
-      c: "X3"
+      a: "In the 'confidential waste' sack",
+      b: "In the 'general waste' bin",
+      c: "Set fire to them"
     },
     correctAnswer: "a",
     correctAnswerText: "That is correct.<p>Our assembly point is opposite the main entrance next to the trees.</p>",
