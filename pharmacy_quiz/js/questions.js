@@ -60,7 +60,7 @@ const myQuestions = [
       b: "The top Fire Exit",
       c: "Opposite the toilets"
     },
-    correctAnswer: "c",
+    correctAnswer: "b",
     correctAnswerText: "That is correct.<p>The nearest fire alarm is located beside the top Fire Exit.</p>",
     falseAnswerText: "That is not correct.<p>Perhaps now would be a good time to find out?!.</p>"
   }
