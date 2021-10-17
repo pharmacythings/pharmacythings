@@ -17,11 +17,11 @@ const myQuestions = [
     question: "How long will a Saxenda pen last when taking 'full dose'?<p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide1.jpg'>",
     answers: {
-      a: "24 hours",
-      b: "6 days",
+      a: "6 days",
+      b: "4 days",
       c: "30 days"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "That is correct.<p>Once you are taking the 3-mg dose, each pen will last 6 days.</p>",
     falseAnswerText: "That's not correct.<p>Once you are taking the 3-mg dose, each pen will last 6 days.</p>"
   },
@@ -53,11 +53,11 @@ const myQuestions = [
   },
   {
     title: "Question 5 - Fire alarm",
-    question: "In case of fire. Raise the Alarm & warn people!<p> Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm in the dispensary?</p><p>Select your answer then Confirm.</p>",
+    question: "In case of fire. Raise the Alarm & warn people!<p> Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm to the dispensary?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide5.jpg'>",
     answers: {
-      a: "Main entrance door",
-      b: "The top Fire Exit",
+      a: "At the main entrance door",
+      b: "Beside the Fire Exit",
       c: "Opposite the toilets"
     },
     correctAnswer: "b",
