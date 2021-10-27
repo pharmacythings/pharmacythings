@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile https://github.com/pharmacythings/pharmacythings.github.io/blob/main/.htpasswd
+AuthUserFile https://github.com/pharmacythings/pharmacythings.github.io/.htpasswd
 require valid-user
