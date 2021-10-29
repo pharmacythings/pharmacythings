@@ -52,12 +52,25 @@ const myQuestions = [
     falseAnswerText: "That is not correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>"
   },
   {
-    title: "Question 5 - Fire alarm",
+    title: "Question 5 - Royal Mail (again!)",
+    question: "What is the maximum dimensions of a parcel you can send via Royal Mail as a 'small parcel'?<p>Select your answer then Confirm.</p>",
+    background: "<img src='./img/bg_slide3.jpg'>",
+    answers: {
+      a: "50cm x 30cm x 14cm",
+      b: "55cm x 40cm x 12cm",
+      c: "45cm x 35cm x 16cm"
+    },
+    correctAnswer: "a",
+    correctAnswerText: "That is correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>",
+    falseAnswerText: "That is not correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>"
+  },
+  {
+    title: "Question 6 - Fire alarm",
     question: "In case of fire. Raise the Alarm & warn people!<p> Fire alarm break-glass points are located in different areas of the building. Do you know the location of the nearest fire alarm in the dispensary?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide5.jpg'>",
     answers: {
       a: "Main entrance door",
-      b: "The top Fire Exit",
+      b: "Beside the Fire Exit",
       c: "Opposite the toilets"
     },
     correctAnswer: "b",
