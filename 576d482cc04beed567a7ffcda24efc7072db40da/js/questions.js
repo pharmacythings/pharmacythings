@@ -61,8 +61,8 @@ const myQuestions = [
       c: "45cm x 35cm x 16cm"
     },
     correctAnswer: "c",
-    correctAnswerText: "That is correct.<p>Anything larger than "45cm x 35cm x 16cm" has to be sent either DPD, DX or Parcel Force.</p>",
-    falseAnswerText: "That is not correct.<p>Anything larger than "45cm x 35cm x 16cm" has to be sent either DPD, DX or Parcel Force..</p>"
+    correctAnswerText: "That is correct.<p>Anything larger than '45cm x 35cm x 16cm' has to be sent either DPD, DX or Parcel Force.</p>",
+    falseAnswerText: "That is not correct.<p>Anything larger than '45cm x 35cm x 16cm' has to be sent either DPD, DX or Parcel Force..</p>"
   },
   {
     title: "Question 6 - Fire alarm",
