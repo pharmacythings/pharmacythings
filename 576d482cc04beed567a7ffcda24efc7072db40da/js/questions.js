@@ -60,9 +60,9 @@ const myQuestions = [
       b: "55cm x 40cm x 12cm",
       c: "45cm x 35cm x 16cm"
     },
-    correctAnswer: "a",
-    correctAnswerText: "That is correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>",
-    falseAnswerText: "That is not correct.<p>Anything that could identify a patient should be disposed of in the confidential waste.</p>"
+    correctAnswer: "c",
+    correctAnswerText: "That is correct.<p>Anything larger than this has to be sent either DPD, DX or Parcel Force.</p>",
+    falseAnswerText: "That is not correct.<p>Anything larger than this has to be sent either DPD, DX or Parcel Force..</p>"
   },
   {
     title: "Question 6 - Fire alarm",
