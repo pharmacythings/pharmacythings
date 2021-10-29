@@ -54,7 +54,7 @@ const myQuestions = [
   {
     title: "Question 5 - Royal Mail (again!)",
     question: "What is the maximum dimensions of a parcel you can send via Royal Mail as a 'small parcel'?<p>Select your answer then Confirm.</p>",
-    background: "<img src='./img/bg_slide3.jpg'>",
+    background: "<img src='./img/imageP.jpg'>",
     answers: {
       a: "50cm x 30cm x 14cm",
       b: "55cm x 40cm x 12cm",
