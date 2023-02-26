@@ -1,0 +1,69 @@
+<html>
+        <head>
+        <style>
+            div {                   
+            font-family: Verdana;
+            padding: 0px;
+            border: 0px solid #000000;      
+        }
+        .txt3 {
+            font-weight: normal;
+                font-size: 100%;
+            font-weight: bold;
+            font-family: Verdana;   
+        }
+        .txt4 {
+            font-weight: normal;
+                font-size: 100%;
+            font-weight: bold;
+            font-family: Verdana;   
+                margin-top: 2px;        
+            margin-left: 0px;
+                color:#000000;
+            border: 2px solid #BC401E;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </head>
+        <body>
+            <script language=javascript>
+                var theSelect,theIframe;
+                var today = new Date(),
+
+            number_of_day = today.getDay();
+                $(document).ready(function() {
+                //var today = new Date();
+                //var n = today.getDay();
+                theSelect = document.getElementById('location');
+                theIframe = document.getElementById('myIframe');
+                theUrl = theSelect.options[number_of_day].value;
+                theIframe.src = theUrl;
+            });
+            function setIframeSource() 
+            {
+              var theUrl;
+
+              if ( theSelect.selectedIndex > 0) {
+                  theUrl = theSelect.options[theSelect.selectedIndex].value;
+              } else {
+                  theUrl = theSelect.options[number_of_day].value;
+              }
+              theIframe.src = theUrl;
+            }
+            </script>
+            <form id="form1" method="post">
+          <label class="txt3"> Select a page :
+            <select class="txt4" id="location" onchange="setIframeSource()">
+              <option value="https://docs.google.com/spreadsheets/d/1FYqqTJcshwWxbtFqSrk2cEnx4OuTeSx2wTXzxdwcnNk/edit#gid=1738843147">INVOICES</option>
+              <option value="https://docs.google.com/spreadsheets/d/1n6S_meQiAujXH2VW2TJMvqIFUWb8YBQmoGX5eUiJ200/edit#gid=1568968752">BULK SHEET</option>
+              <option value="https://docs.google.com/spreadsheets/d/1TxKO04PTRKnaCRJUjA56mbeQuue5UUZD9TcQYvdTSas/edit#gid=641685906">GOODS IN</option>
+              <option value="https://docs.google.com/spreadsheets/d/1CGiUHOvvMVM4gWttnUsYGc3mRerLz3M3KyUbw_X_HFA/edit#gid=1508413971">MONTHLY STOCKTAKE</option>
+            </select>
+          </label Select a page>
+        </form>
+        <br>
+        <br>
+
+        <iframe id="myIframe" src="http://www.alumnei.nl/images/learninglane.jpg" frameborder="0" marginwidth="0" marginheight="0" width="1366" height="800" allowfullscreen scrolling="no"></iframe>
+        </body>
+        </html>
