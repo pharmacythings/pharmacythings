@@ -1,0 +1,68 @@
+<html>
+        <head>
+        <style>
+            div {                   
+            font-family: Verdana;
+            padding: 0px;
+            border: 0px solid #000000;      
+        }
+        .txt3 {
+            font-weight: normal;
+                font-size: 100%;
+            font-weight: bold;
+            font-family: Verdana;   
+        }
+        .txt4 {
+            font-weight: normal;
+                font-size: 100%;
+            font-weight: bold;
+            font-family: Verdana;   
+                margin-top: 2px;        
+            margin-left: 0px;
+                color:#000000;
+            border: 2px solid #BC401E;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </head>
+        <body>
+            <script language=javascript>
+                var theSelect,theIframe;
+                var today = new Date(),
+
+            number_of_day = today.getDay();
+                $(document).ready(function() {
+                //var today = new Date();
+                //var n = today.getDay();
+                theSelect = document.getElementById('location');
+                theIframe = document.getElementById('myIframe');
+                theUrl = theSelect.options[number_of_day].value;
+                theIframe.src = theUrl;
+            });
+            function setIframeSource() 
+            {
+              var theUrl;
+
+              if ( theSelect.selectedIndex > 0) {
+                  theUrl = theSelect.options[theSelect.selectedIndex].value;
+              } else {
+                  theUrl = theSelect.options[number_of_day].value;
+              }
+              theIframe.src = theUrl;
+            }
+            </script>
+            <form id="form1" method="post">
+          <label class="txt3"> Select a page :
+            <select class="txt4" id="location" onchange="setIframeSource()">
+              <option value="https://pharmacythings.github.io/cad86d9fa857178ca94a74fe1335a26d787c9f12/index.html">DATABASE</option>
+              <option value="https://pharmacythings.github.io/45f319ff907ecdacbc8f350d01d06009ee21d70a/index.html">USAGE</option>
+              <option value="https://pharmacythings.github.io/6eb199b5edbcfcb6bbe76da87295a1440852d557/index.html">DRUG TARIFF</option>
+            </select>
+          </label Select a page>
+        </form>
+        <br>
+        <br>
+
+        <iframe id="myIframe" src="http://www.alumnei.nl/images/learninglane.jpg" frameborder="0" marginwidth="0" marginheight="0" width="1366" height="800" allowfullscreen scrolling="no"></iframe>
+        </body>
+        </html>
