@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Multiple Inputs to File</title>
+</head>
+<body>
+    <h1>Save Multiple Inputs to File</h1>
+    
+    <!-- Create input fields and a button to add more fields -->
+    <div id="inputFields">
+        <div>
+            <label for="data">Enter Data:</label>
+            <textarea class="data-input" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <br>
+    <button id="addButton">Add Input Field</button>
+    <button id="saveButton">Save to File</button>
+
+    <script>
+        document.getElementById('addButton').addEventListener('click', function () {
+            const inputFields = document.getElementById('inputFields');
+            const newInputField = document.createElement('div');
+            newInputField.innerHTML = `
+                <div>
+                    <label for="data">Enter Data:</label>
+                    <textarea class="data-input" rows="4" cols="50"></textarea>
+                </div>
+            `;
+            inputFields.appendChild(newInputField);
+        });
+
+        document.getElementById('saveButton').addEventListener('click', function () {
+            const dataInputs = document.querySelectorAll('.data-input');
+            const combinedData = Array.from(dataInputs).map(input => input.value).join('\n');
+            
+            // Create a Blob containing the combined data
+            const blob = new Blob([combinedData], { type: 'text/plain' });
+
+            // Create an anchor element to trigger the download
+            const anchor = document.createElement('a');
+            anchor.href = URL.createObjectURL(blob);
+            anchor.download = 'data.txt';
+
+            // Programmatically trigger a click event to start the download
+            anchor.click();
+        });
+    </script>
+</body>
+</html>
