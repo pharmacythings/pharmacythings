@@ -13,7 +13,7 @@
 var imgPlayer;
 var imgTiles;
 var imgEnemy = new Array(5);
-var imgSky = new Array(4);
+var imgSky = new Array(5);
 var imgFont;
 var loaded = false;
 
@@ -177,7 +177,7 @@ Q                                                   N S S S SN        TQ Q Q QT 
 mapWidth[4] = 150;
 mapHeight[4] = 15;
 mapGravity[4] = 0;
-mapSky[4] = 2;
+mapSky[4] = 4;
 mapName[4] = 'Password at the end of this level';
 mapFile[4] =
 'K1  KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\
@@ -231,6 +231,7 @@ function preinit()
 	imgSky[1] = preload_image('sky2.png');
 	imgSky[2] = preload_image('sky3.png');
 	imgSky[3] = preload_image('sky4.png');
+	imgSky[4] = preload_image('marcin.png');
 }
 
 function preload_image(uri)
