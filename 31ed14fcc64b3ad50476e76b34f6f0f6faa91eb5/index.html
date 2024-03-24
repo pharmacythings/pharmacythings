@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Frogger In Canvas</title>
+    <title>Captain Fun Frogger</title>
     <meta name="viewport" content="width=480, initial-scale=1.0">
     <style>
     @font-face {
@@ -23,8 +23,25 @@
         width: 480px;
         height: 640px;
     }
+    
+    body {
+    background-image: url("back.png");
+
+    background-repeat: no-repeat;
+    }
     </style>
+
+
 </head>
+<body style="margin: 0pt;" onload="loading(); moomoo();" onkeypress="return (event.keyCode >= 37 &amp;&amp; event.keyCode <= 40) ? false : true;">
+
+
+
+<div style="position:absolute;top:30px;left:140px;">
+
+
+</head>
+
 <body>
     <canvas id="background-canvas" class="canvas" width="960" height="1280"></canvas>
     <canvas id="canvas" class="canvas" width="960" height="1280"></canvas>
